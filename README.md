@@ -1,0 +1,6 @@
+nodecleaner
+===========
+
+- Nodecleaner is a url shortener application which is created with node.js + mongodb .
+- Dependencies are expressjs (3.0.4) , jade (0.28.1) and mongodb (1.2.14).
+- You can see it @ http://nodecleaner.rs.af.cm on appfog.com as demo .
