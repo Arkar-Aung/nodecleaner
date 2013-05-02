@@ -1,0 +1,26 @@
+.container-fluid form{
+	float:left;
+}
+
+.container-fluid .span4{
+	margin-left: 6px;
+}
+
+.container-fluid .span4 p{
+	font-size: 16px;
+	background: rgba(225,225,225,0.5);
+	margin-top : 20px;
+	padding:8px;
+	display: inline-block;
+	border:1px solid #e1e1e1;
+	position: relative;
+}
+
+.left_arrow{
+	position: absolute;
+	width: 5px;
+	height: 10px;
+	background: url('../img/arrow.png');
+	left:-6px;
+	top:13px;
+}

@@ -1,0 +1,25 @@
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/bootstrap.css')
+    link(rel='stylesheet', href='/css/style.css')    
+  body
+    .container.well
+      .span9
+       h1 NodeCleaner
+       Just Clean Complicated and Dirty URL
+        hr       
+       .container-fluid
+        form(action='/',method='POST')
+         label URL:
+         .controls
+          input(name='url',type='text')
+         button.btn.btn-primary Clean
+        if (target != '')
+         .span4
+          p= target
+           span.left_arrow          
+       hr
+       p
+        | <small> Created with <a href="#">Nodejs</a> .</small>
