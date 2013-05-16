@@ -56,7 +56,7 @@ exports.redirect = function(req,res){
 
 
 function checkURL(url) {
-    var urlPattern = /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/;
+    var urlPattern = /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w\d\%\c \.-][\u1000-\u1097]*)*\/?$/;
     if (url.match(urlPattern) != null) {
         return (true);
     }
